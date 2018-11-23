@@ -61,8 +61,6 @@ export class Crawler {
 
     Dumper.text(found);
 
-    // todo: store (using fs) the found urls in xml (js2xmlparser) and txt format
-
     Dumper.xml(found);
   }
 }
