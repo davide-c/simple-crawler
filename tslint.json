@@ -1,0 +1,23 @@
+{
+  "defaultSeverity": "error",
+  "extends": [],
+  "jsRules": {},
+  "rules": {
+    "new-parens": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-consecutive-blank-lines": false,
+    "no-console": {
+      "severity": "warning",
+      "options": [
+        "debug",
+        "info",
+        "log",
+        "time",
+        "timeEnd",
+        "trace"
+      ]
+    }
+  },
+  "rulesDirectory": []
+}
